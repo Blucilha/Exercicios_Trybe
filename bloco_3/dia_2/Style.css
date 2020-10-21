@@ -1,0 +1,23 @@
+h1 {
+    color: orange;
+    font-size: 65px;
+    font-family: sans-serif;
+} 
+ul {
+    
+    background-color: rgb(131, 279, 564);
+}
+.background {
+  background-color: yellowgreen;
+}
+p {
+  font-weight: 600;
+  font-size: 3em;
+  font-style: oblique;
+}
+body {
+  font-size: 16px;
+}
+.amarelo {background-color:yellow}
+.vermelho {background-color:  red;}
+.marrom {background-color:  brown;}
