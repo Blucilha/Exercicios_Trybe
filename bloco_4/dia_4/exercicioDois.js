@@ -14,4 +14,8 @@ console.log(`Bem vinda, ${info.personagem}.`);
 info.recorrente = "sim";
 console.log(info);
 
-//
+//Percorrer as chaves usando o for in//
+
+for (let chaves in info){
+    console.log(chaves);
+}
