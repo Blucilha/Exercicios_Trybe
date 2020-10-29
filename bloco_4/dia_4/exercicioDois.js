@@ -8,3 +8,10 @@ let info = {
   };
 
 console.log(`Bem vinda, ${info.personagem}.`);
+
+//Inserindo uma nova chave e valor//
+
+info.recorrente = "sim";
+console.log(info);
+
+//
