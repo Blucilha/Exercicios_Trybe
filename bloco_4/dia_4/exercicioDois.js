@@ -19,3 +19,9 @@ console.log(info);
 for (let chaves in info){
     console.log(chaves);
 }
+
+//Percorrer apenas os valores//
+
+for (let chaves in info){
+    console.log(info[chaves]);
+}
