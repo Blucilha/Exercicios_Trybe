@@ -21,4 +21,10 @@ let paragrafo = document.createElement("p");
 localizarFilho.appendChild(paragrafo);
 paragrafo.innerText = "Bruce gosta muito de animes, mas está gostando mais da Trybe";
 
-//
+// Adiciona outra div filho da primeira div//
+let irmaoDaOutraDiv = document.createElement("div");
+irmaoDaOutraDiv.className = "left-content";
+localizar.appendChild(irmaoDaOutraDiv);
+
+
+ 
