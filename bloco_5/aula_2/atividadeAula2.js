@@ -15,4 +15,10 @@ let outraDiv = document.createElement("div");
 outraDiv.className = "center-content";
 localizar.appendChild(outraDiv);
 
+// Adiciona tag p na tag anterior e colocar algum texto//
+let localizarFilho = document.querySelector(".center-content");
+let paragrafo = document.createElement("p");
+localizarFilho.appendChild(paragrafo);
+paragrafo.innerText = "Bruce gosta muito de animes, mas está gostando mais da Trybe";
 
+//
