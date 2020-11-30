@@ -65,14 +65,9 @@ const books = [
 
 //Encontre o nome da primeira pessoa autora do livro nascida no ano de 1947.
 function authorBornIn1947() {
-  for (let index = 0; index < books.length; index += 1){
-    if (books[index].author.birthYear === 1947) {
-        return books[index].author.name;
-    }
-  }
-
-  return nomeAutor;
+  return books.find((procura) => procura.author.birthYear === 1947).author.name;
 }
 
+
 assert.strictEqual(authorBornIn1947(), 'Stephen King');
-//console.log(authorBornIn1947());
+console.log(authorBornIn1947());
